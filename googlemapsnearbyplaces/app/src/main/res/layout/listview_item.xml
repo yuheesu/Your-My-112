@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/image"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/name"
+        android:layout_alignLeft="@id/name"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@+id/tel"
+        android:layout_alignLeft="@id/name"
+        android:padding="5dp"
+        />
+
+
+
+</RelativeLayout>
+
+<!--
+<Button
+        android:id="@+id/modifybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수정"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/btn_default_small"
+        />
+
+    <Button
+        android:id="@+id/delbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="삭제"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/modifybtn"
+        android:background="@android:drawable/btn_default_small"
+        />
+-->

@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:text="주변시설"
+            android:id="@+id/map_widget"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/btn_message"
+            android:layout_alignStart="@+id/btn_message"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+</LinearLayout>
